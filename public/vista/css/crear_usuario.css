@@ -2,16 +2,18 @@
     box-sizing: border-box;
 
 }
-body{
-    background: url(../img/wallpapers-4k-paisajes.jpg);
+
+body {
+    background: url(../img/fondo.png);
     background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    font-family: rale;
-    
+    font-family: rale; 
+
 }
-form{
+
+form {
     width: 450px;
     margin: auto;
     background: rgba(0, 0, 0, .4);
@@ -19,7 +21,8 @@ form{
     margin-top: 20px;
     border-radius: 7px;
 }
-h2{
+
+h2 {
     color: #fff;
     text-align: center;
     margin: 0;
@@ -27,16 +30,20 @@ h2{
     margin-bottom: 20px;
 
 }
+
 ::placeholder{
     font-family:rale;
+
 }
-input{
+
+input {
     width: 100%;
     margin-bottom: 18px;
     padding: 15px;
     font-size: 15px;
+
 } 
-#boton{
+#boton {
     width: 100%;
     height: 50px;
     font-size: 20px;
@@ -50,30 +57,23 @@ input{
     font-family: rale;
 
 }
-#boton:hover{
+
+#boton:hover {
     width: 120%;
     margin-left: -10%;
     cursor: pointer;
 }
-#boton:active{
+
+#boton:active {
     background-color: rgba(255, 255, 255, .2);
     outline: 0;
     border: 0;
     border-radius: 5px;
-}
-#boton:focus{
-    background-color: rgba(255, 255, 255, .2);
-    outline: 0;
-    border: 0;
-    border-radius: 5px;
-}
-@media(max-width:480px){
-    form{
-        width: 100%;
-    }
 }
 
-@font-face{
-    font-family: rale;
-    src: url(../fuentes/Raleway-Regular.ttf)
+#boton:focus {
+    background-color: rgba(255, 255, 255, .2);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
 }
